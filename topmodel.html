@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+var e = document.getElementsByTagName("frame");
+function car1(){ document.getElementsByTagName("frameset")[0].setAttribute("cols","80%,*,*");}
+function car2(){ document.getElementsByTagName("frameset")[0].setAttribute("cols","*,80%,*"); }
+function car3(){ document.getElementsByTagName("frameset")[0].setAttribute("cols","*,*,80%"); }
+</script>
+
+</head>
+
+
+    <frameset cols="*,*,*" >
+<frame src="car1.html" onmouseover="car1()">
+<frame src="car2.html" onmouseover="car2()">
+<frame src="car3.html" onmouseover="car3()">
+    </frameset>
+
+</html>

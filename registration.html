@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<title>Test Drive</title>
+<style>
+html{
+	font-size:62.5%;
+}
+body{
+
+background-image:linear-gradient(110deg,yellow,orange);
+
+}
+form{
+font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+font-size:18px;
+}
+
+input{
+
+width: 200px;
+height:30px;
+border-radius:5px;
+border:thin solid black;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<center><h1 style="font-size:50px; "><solid>Text Drive Registration Form<solid></h1>
+
+<form method="post"><h3>
+Enter Your First Name : &nbsp <input type=text maxlength=20 size=30 name="T1" placeholder="Enter here"><br><br>
+Enter Your Last Name : &nbsp <input type=text maxlength=20 size=30 name="T2" placeholder="Enter here"><br><br>
+<span style="display:inline-block">Choose the model for test drive :</span><br>
+<span style="display:inline;">
+<input type=checkbox name="c1">Mustang GT Fastback UL<br><input type=checkbox name="c2">Lamborgini Aventador S<br><input type=checkbox name="c3">Lamborgini Aventador L<br>
+</span>
+<br><br>
+Enter your email address : &nbsp <input type=text maxlength=30 size=30 name="T2"><br><br>
+Enter your date of test drive : &nbsp <input type=date name="d1"><br><br>	
+Choose your payment method : 
+<select style="border:thin solid black; border-radius:5px;width:250px;height:30px;">
+<option>CASH</option>
+<option>DEBIT</option>
+<option>CREDIT</option>
+</select>
+<br>
+
+<br>
+Any specific comments : <textarea rows="5" cols="20" name="T3" placeholder="Enter your comments here" style="width:250px;height:60px;border:thin solid black;border-radius:5px;"></textarea><br><br>
+				<input type=submit value="submit" name="s1"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<input type=reset value="reset" name="r2">
+</h3></center></form>
+</body>
+</html>
